@@ -1,0 +1,299 @@
+
+@font-face {
+	font-family:'SuperCorn'; 
+	src: url('../font/SuperCorn.ttf');}
+	
+ 
+ .photo1{
+ width: 100%; }
+ 
+ 
+ .photo2{
+ width: 100%;}
+
+ 
+ .photo3{
+ width: 100%; }
+
+ .photo4{
+ width: 100%; }
+
+ .photo5{
+ width: 100%; }
+
+ 
+ .photo6{
+ width: 100%; }
+ 
+ .photo7{
+ width: 100%; }
+
+.photo8{
+ width: 100%; }
+
+.photo9{
+ width: 100%; }
+ 
+ .photo10{
+ width: 100%; }
+ 
+ .photo11{
+ width: 100%; }
+
+.photo12{
+ width: 100%; }
+
+
+
+
+.wrapper {
+border-style:solid;
+border-width:20px;
+border-color:red;
+display: grid; 
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: repeat;
+gap: 15px 
+}
+
+
+
+ h1{ font-family: 'SuperCorn';
+ 	color: white;
+ 	background-color:grey;
+ 	text-align: center;}
+ 
+ 
+ 
+ 
+ 
+.pictureandplaces{ 
+font-family: Verdana; 
+text-align: center;
+font-size: 170%;
+}
+ 
+  
+  
+  
+  
+h5 { font-family: c; 
+ 	color: black;
+ 	text-align: center;
+ 	font-size: 35px;
+ 	  }
+
+
+h4 {
+ 	font-family: Arial; 
+ 	color: black;
+ 	text-align: center;
+ 	font-size: 35px;
+ 	}
+ 
+ 
+ 
+ 
+ .headerlink { background-color:rgba(0,0,255,0.4); }
+
+
+li { color: green; 
+color: black;
+font-size: 20px;  }
+ 
+ 
+#important1{ font-size: 400%; }
+ 
+
+ 
+#important2 { font-family:'monaco'; }
+ 
+ 
+ 
+
+#borderimg {
+border: 10px solid transparent;
+padding: 15px;
+border-image: url(color.jpg) 30 round;
+} 	 
+ 
+ 
+.taylorreserviorimage{
+width:250px;
+}
+ 
+ 
+ .ohiocreekimage{
+width: 250px;
+display: block; 
+margin-left:auto;
+}
+ 
+ .text1{
+position:left; 
+top:10px;
+left:10px; 
+margin-left:10px; 
+margin-right:100px;
+ }
+ 
+
+ 
+ .serviceselection{
+ text-align: center;
+ font-size: 30px;	
+ font: serif;
+ }
+ 
+  
+ .location2{	
+ 	text-align:center;
+ 		
+ } 
+ 
+ .location1{
+ 	text-align:center; 
+ 	 }
+ 
+ 
+ 
+ .serviceselection2{
+ 	border: 10px solid transparent;
+	padding: 15px;
+	border-image: url(color.jpg) 30 round;
+ }
+ 
+ 
+ .serviceselection {	
+ 	text-align:center; 	
+ }
+ 
+ 
+ 
+ .location2 {
+ 	border: 10px solid transparent;
+	padding: 15px;
+	border-image: url(color.jpg) 30 round;
+ } 
+ 
+ 
+ 
+ .date1 { 	
+ 	border: 10px solid transparent;
+	padding: 15px;
+	border-image: url(color.jpg) 30 round;
+ 	text-align:center;	
+ }
+ 
+ 
+ 
+.comments {
+	border: 10px solid transparent;
+	padding: 15px;
+	border-image: url(color.jpg) 30 round;
+ 	text-align:center;
+}
+ 
+ 
+ 
+ 
+.mynav{
+font-size: 230%;
+text-align:center; 	
+display: flex;
+position: fixed;
+}
+ 
+.mynav > div { 
+flex: 10;
+}
+ 
+ 
+ .mynav{
+border: 2px solid black;
+padding: 10px; 
+margin; 20px;
+text-align:center; 	
+} 
+ 
+ 
+ .head1{
+ 	text-align:center;
+ 	font-family: Verdana;
+ }
+ 
+ 
+ 
+
+ 
+ body {
+background-image: url("../images/background.jpg");}
+ 
+ 
+ 
+ 	
+@media all and (min-width: 800px) {
+.media1 {
+color:green;
+background: black;
+border: 2px solid green;
+}
+
+}
+	
+
+ 
+ 	
+@media all and (max-width: 800px) {
+.media2 {
+color:purple;
+background: pink;
+border: 2px solid purple;
+}
+
+}
+	
+ 
+ .wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+    gap: 16px;
+}
+
+@media (max-width: 1024px) {
+  .wrapper{
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 480px) {
+ .wrapper {
+    grid-template-columns: 1fr; 
+  }
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
